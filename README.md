@@ -1,7 +1,7 @@
 # spring-boot-video-streaming
 Video streaming server using Spring Boot, Webflux, AWS S3
 
-# Test
+# Usage
 ## Upload
     curl -H "Content-Type: video/mp4" -H "originalFilename: xxxxx.mp4" --data-binary "@xxxxx.mp4" "localhost:8080/video/upload" -XPOST
     {"videoId":"xxxxx.mp4"}
